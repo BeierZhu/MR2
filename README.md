@@ -1,5 +1,4 @@
 # [ICLR 2026] Reducing class-wise performance disparity via margin regularization
-_________________
 
 Official implementation of the ICLR 2026 paper
 
