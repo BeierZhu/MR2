@@ -2,6 +2,14 @@
 
 Official implementation of the ICLR 2026 paper
 
+
+<div align="center">
+<a href="https://arxiv.org/pdf/2602.00205" style="display: inline-block;">
+    <img src="https://img.shields.io/badge/arXiv%20paper-2507.08396-b31b1b.svg" alt="arXiv" style="height: 20px; vertical-align: middle;">
+</a>&nbsp;
+
+</div>
+
 **Abstract**: Deep neural networks often exhibit substantial disparities in class-wise accuracy, even when trained on class-balanced data, posing concerns for reliable deployment. While prior efforts have explored empirical remedies, a theoretical understanding of such performance disparities in classification remains limited. In this work, we present Margin Regularization for Performance Disparity Reduction (MR^2), a theoretically principled regularization for classification by dynamically adjusting margins in both the logit and representation spaces. Our analysis establishes a margin-based, class-sensitive generalization bound that reveals how per-class feature variability contributes to error, motivating the use of larger margins for hard classes. Guided by this insight, MR^2 optimizes per-class logit margins proportional to feature spread and penalizes excessive representation margins to enhance intra-class compactness. Experiments on seven datasets, including ImageNet, and diverse pre-trained backbones (MAE, MoCov2, CLIP) demonstrate that MR^2 not only improves overall accuracy but also significantly boosts hard class performance without trading off easy classes, thus reducing performance disparity.
 
 
