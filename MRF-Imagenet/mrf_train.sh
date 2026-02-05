@@ -1,0 +1,12 @@
+python src/mrf_train.py   \
+    --train-dataset=dataset_name  \
+    --epochs=10  \
+    --lr=0.00003  \
+    --batch-size=512  \
+    --cache-dir=cache  \
+    --model=model_name \
+    --eval-datasets=dataset_name  \
+    --template=template_name  \
+    --results-db=your_save_path   \
+    --save=your_ckpt_path  \
+    --data-location=your_data_path \
